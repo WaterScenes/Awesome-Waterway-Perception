@@ -11,7 +11,7 @@
 - [Uni-Modal Perception](#uni-modal-perception)
   - [Detection](#detection)
     - [Small Object Detection](#small-object-detection)
-    - [Open-Vocabulary Object Detection](#open-vocabulary object detection)
+    - [Open-Vocabulary Object Detection](#open-vocabulary-object-detection)
   - [Segmentation](#segmentation)
   - [Tracking](#tracking)
   - [Diffusion](#diffusion)
