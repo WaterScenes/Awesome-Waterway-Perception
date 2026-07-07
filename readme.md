@@ -23,9 +23,9 @@
 
 ## Teams
 * ### WaterScenes [[Website](https://waterscenes.github.io)] [[Github](https://github.com/WaterScenes)] 
-  University of Liverpool, Xi'an Jiaotong-Liverpool University, Institute of Deep Perception Technology, Jiangsu Industrial Technology  Research Institute
+  Yancheng Institute of Technology
   
-* ### Marine Intelligent Perception and Computation (MIPC) Group [[Website](http://mipc.whut.edu.cn/publications.html)] 
+* ### MAP Group [[Website](https://www.x-mol.com/groups/mipc)] 
   Wuhan University of Technology
   
 * ### Avalon [[Website](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/projects/avalon/)] 
