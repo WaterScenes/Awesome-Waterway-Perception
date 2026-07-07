@@ -11,6 +11,7 @@
 - [Uni-Modal Perception](#uni-modal-perception)
   - [Detection](#detection)
     - [Small Object Detection](#small-object-detection)
+    - [Open-Vocabulary Object Detection](#open-vocabulary object detection)
   - [Segmentation](#segmentation)
   - [Tracking](#tracking)
   - [Diffusion](#diffusion)
@@ -34,6 +35,8 @@
   University of Ljubljana 
 
 ## Workshops
+
+* ### MaCVi 2026
 
 * ### MaCVi 2025
 
@@ -118,6 +121,8 @@
 #### Small Object Detection
 * 2023 - A novel Multi to Single Module for small object detection  [*`SeaDroneSee`*] [[Paper](https://arxiv.org/abs/2303.14977)]
 * 2024 - [**RCFNet**] Small Object Detection on the Water Surface Based on Radar and Camera Fusion [*`FloW`*] __`ICASSP`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10446880)]
+
+#### Open-Vocabulary Object Detection
 
 
 ### Segmentation
