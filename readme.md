@@ -61,9 +61,9 @@
 
 ## Surveys
 * 2017 - Video Processing From Electro-Optical Sensors for Object Detection and Tracking in a Maritime Environment: A Survey __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/7812788)]
-* 2022 - Vessel Trajectory Prediction in Maritime Transportation: Current Approaches and Beyond __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/9843851/)]
+* 2022 - **VTP Survey**: Vessel Trajectory Prediction in Maritime Transportation: Current Approaches and Beyond [*`Maritime Transportation`* *`Vessel Trajectory Prediction`*] __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/9843851/)]
 * 2023 - Deep learning-based object detection in maritime unmanned aerial vehicle imagery: Review and experimental comparisons __`EAAI`__ [[Paper](https://www.sciencedirect.com/science/article/pii/S0952197623016974)]
-* 2026 - **VLA Survey**: A Survey on Vision-Language-Action Models for Embodied AI __`TNNLS`__ [[Paper](https://pubmed.ncbi.nlm.nih.gov/42048203/)]
+* 2026 - **VLA Survey**: A Survey on Vision-Language-Action Models for Embodied AI [*`Embodied AI`* *`VLA`*] __`TNNLS`__ [[Paper](https://pubmed.ncbi.nlm.nih.gov/42048203/)]
 
 ## Datasets
 
@@ -170,7 +170,7 @@
 * 2024 - **FVMNet**: Real-Time Volumetric Perception for Unmanned Surface Vehicles Through Fusion of Radar and Camera [Segmentation] __`TIM`__ [[Paper](https://ieeexplore.ieee.org/document/10478941/)] 
 
 ### AIS-Camera
-* 2026 - **Unified Multimodal Vessel Trajectory Prediction**: Unified Multimodal Vessel Trajectory Prediction With Explainable Navigation Intention [*`AIS`* *`Vessel Trajectory Prediction`*] __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/11278469/)]
+* 2026 - **UMVTP**: Unified Multimodal Vessel Trajectory Prediction With Explainable Navigation Intention [*`AIS`* *`Vessel Trajectory Prediction`*] __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/11278469/)]
 * 2026 - **CmIVTP**: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence [*`Maritime-MmD+`* *`AIS`* *`CCTV`*] __`arXiv`__ [[Paper](https://arxiv.org/abs/2605.26524)] [[GitHub](https://github.com/LouisYxLu/CmIVTP)]
 * 2026 - **Memory-Augmented VTP**: AIS-Based Vessel Trajectory Prediction Using Memory-Augmented Neural Networks [*`AIS`* *`Vessel Trajectory Prediction`*] __`arXiv`__ [[Paper](https://arxiv.org/abs/2606.06311)]
 
