@@ -37,8 +37,11 @@
 ## Workshops
 
 * ### MaCVi 2026
+  * The 4th Workshop on Maritime Computer Vision (MaCVi) 2026 [[Website](https://macvi.org/workshop/cvpr)] [[Challenges](https://macvi.org/workshop/cvpr/challenges)] [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kiefer_4th_Workshop_on_Maritime_Computer_Vision_MaCVi_Challenge_Overview_CVPRW_2026_paper.html)]
+  * 2026 - **MaCVi Challenge Overview**: 4th Workshop on Maritime Computer Vision (MaCVi) Challenge Overview [*`MaCVi`* *`USV`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kiefer_4th_Workshop_on_Maritime_Computer_Vision_MaCVi_Challenge_Overview_CVPRW_2026_paper.html)] [[Website](https://macvi.org/workshop/cvpr)]
 
 * ### MaCVi 2025
+  * The 3rd Workshop on Maritime Computer Vision (MaCVi) 2025 [[Website](https://macvi.org/workshop/macvi25)]
 
 * ### MaCVi 2024
   * The 2nd Workshop on Maritime Computer Vision (MaCVi) 2024 [[Website](https://macvi.org/workshop/macvi24)] [[Results](https://arxiv.org/abs/2311.14762)] [[Paper List](https://openaccess.thecvf.com/WACV2024_workshops/MaCVi)]
@@ -58,7 +61,9 @@
 
 ## Surveys
 * 2017 - Video Processing From Electro-Optical Sensors for Object Detection and Tracking in a Maritime Environment: A Survey __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/7812788)]
+* 2022 - Vessel Trajectory Prediction in Maritime Transportation: Current Approaches and Beyond __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/9843851/)]
 * 2023 - Deep learning-based object detection in maritime unmanned aerial vehicle imagery: Review and experimental comparisons __`EAAI`__ [[Paper](https://www.sciencedirect.com/science/article/pii/S0952197623016974)]
+* 2026 - **VLA Survey**: A Survey on Vision-Language-Action Models for Embodied AI __`TNNLS`__ [[Paper](https://pubmed.ncbi.nlm.nih.gov/42048203/)]
 
 ## Datasets
 
@@ -101,7 +106,9 @@
 | **MULTIAQUA** | 2025 |  | Semantic Segmentation | University of Ljubljana | [Website](https://lmi.fe.uni-lj.si/en/multiaqua/) <br> [Paper](https://arxiv.org/abs/2512.17450) |
 | **MVTD** | 2025 |  | Object Tracking | Khalifa University | [Dataset](https://figshare.com/articles/dataset/MVTD/29177147) <br> [Paper](https://arxiv.org/abs/2506.02866) <br> [Github](https://github.com/AhsanBaidar/MVTD) |
 | **USVTrack** | 2025 | IROS | Object Detection <br> Object Tracking | University of Liverpool | [Website](https://usvtrack.github.io/) <br> [Paper](https://ieeexplore.ieee.org/document/11246786) <br> [Github](https://github.com/USVTrack/USVTrack) |
-| **SeaClips** | 2026 |  | Object Detection | SEA.AI | [Dataset](https://huggingface.co/datasets/SEA-AI/SeaClips) <br> [Paper](https://doi.org/10.1109/WACV61042.2026.00447) |
+| **MaCVi 2026 Challenges** | 2026 | CVPR Workshop | Vision-to-Chart Association <br> Thermal Object Detection <br> Panoptic Segmentation <br> Embedded Semantic Segmentation <br> Multimodal Semantic Segmentation | MaCVi Initiative | [Website](https://macvi.org/workshop/cvpr) <br> [Challenges](https://macvi.org/workshop/cvpr/challenges) <br> [Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kiefer_4th_Workshop_on_Maritime_Computer_Vision_MaCVi_Challenge_Overview_CVPRW_2026_paper.html) |
+| **Maritime-MmD+** | 2026 | arXiv | Multimodal Vessel Trajectory Prediction | Yuxu Lu et al. | [Paper](https://arxiv.org/abs/2605.26524) <br> [Github](https://github.com/LouisYxLu/CmIVTP) |
+| **SeaClips** | 2026 | WACV | Object Detection | SEA.AI | [Dataset](https://huggingface.co/datasets/SEA-AI/SeaClips) <br> [Paper](https://doi.org/10.1109/WACV61042.2026.00447) |
 | **WUTDet** | 2026 |  | Object Detection | Wuhan University of Technology | [Paper](https://arxiv.org/abs/2604.07759) <br> [Github](https://github.com/MAPGroup/WUTDet) |
 
 
@@ -123,11 +130,15 @@
 * 2024 - [**RCFNet**] Small Object Detection on the Water Surface Based on Radar and Camera Fusion [*`FloW`*] __`ICASSP`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10446880)]
 
 #### Open-Vocabulary Object Detection
+* 2026 - **HSGDet**: Prompt-Free Unknown Label Generation for Open World Detection in Remote Sensing [*`Remote Sensing`* *`Open World Detection`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Azeem_Prompt-Free_Unknown_Label_Generation_for_Open_World_Detection_in_Remote_CVPR_2026_paper.html)]
 
 
 ### Segmentation
 * 2018 - Stereo obstacle detection for unmanned surface vehicles by IMU-assisted semantic segmentation [*`MODD2`*] [[Paper](https://www.sciencedirect.com/science/article/pii/S0921889017305808)]
 * 2021 - ShorelineNet: An Efficient Deep Learning Approach for Shoreline Semantic Segmentation for Unmanned Surface Vehicles [*`MODD2`*]  **IROS** [[Paper](https://ieeexplore.ieee.org/document/9636614)]
+* 2026 - **MM-OVSeg**: Multimodal Optical-SAR Fusion for Open-Vocabulary Segmentation in Remote Sensing [*`Remote Sensing`* *`Optical-SAR`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wei_MM-OVSeg_Multimodal_Optical-SAR_Fusion_for_Open-Vocabulary_Segmentation_in_Remote_Sensing_CVPR_2026_paper.html)] [[GitHub](https://github.com/Jimmyxichen/MM-OVSeg)]
+* 2026 - **ReAttnCLIP**: Training-Free Open-Vocabulary Remote Sensing Image Segmentation via Re-defined Attention in CLIP [*`Remote Sensing`* *`Open-Vocabulary Segmentation`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.html)]
+* 2026 - **ConInfer**: Context-Aware Inference for Training-Free Open-Vocabulary Remote Sensing Segmentation [*`Remote Sensing`* *`Open-Vocabulary Segmentation`*] __`arXiv`__ [[Paper](https://arxiv.org/abs/2603.29271)]
 
 ### Tracking
 * 2021 - A Robust Deep Affinity Network for Multiple Ship Tracking  [*`SMD`*] __`TIM`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9423987)]
@@ -139,6 +150,7 @@
 * 2023 - **ReIDTracker Sea**: the technical report of BoaTrack and SeaDronesSee-MOT challenge at MaCVi [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.07616)]
 * 2023 - [**DLR-BoaTrack**]: Improving YOLOv8 with Scattering Transform and Attention for Maritime Awareness [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`ISPA`__ [[Paper](https://ieeexplore.ieee.org/document/10279352)]
 * 2024 - Active Vision-Based Finite-Time Trajectory-Tracking Control of an Unmanned Surface Vehicle Without Direct Position Measurements __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10443713)]
+* 2026 - **UAST**: Unified Active Search and Tracking for Arbitrary Targets with UAVs [*`UAV`* *`RGB-D`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Qin_UAST_Unified_Active_Search_and_Tracking_for_Arbitrary_Targets_with_CVPR_2026_paper.html)] [[GitHub](https://github.com/qinliangql/UAST)]
 
 ### Mapping
 * 2024 - Real-Time Volumetric Perception for Unmanned Surface Vehicles Through Fusion of Radar and Camera __`TIM`__ [[Paper](https://ieeexplore.ieee.org/document/10478941)]
@@ -158,10 +170,14 @@
 * 2024 - **FVMNet**: Real-Time Volumetric Perception for Unmanned Surface Vehicles Through Fusion of Radar and Camera [Segmentation] __`TIM`__ [[Paper](https://ieeexplore.ieee.org/document/10478941/)] 
 
 ### AIS-Camera
+* 2026 - **Unified Multimodal Vessel Trajectory Prediction**: Unified Multimodal Vessel Trajectory Prediction With Explainable Navigation Intention [*`AIS`* *`Vessel Trajectory Prediction`*] __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/11278469/)]
+* 2026 - **CmIVTP**: Cross-modal Interaction-based Vessel Trajectory Prediction for Maritime Intelligence [*`Maritime-MmD+`* *`AIS`* *`CCTV`*] __`arXiv`__ [[Paper](https://arxiv.org/abs/2605.26524)] [[GitHub](https://github.com/LouisYxLu/CmIVTP)]
+* 2026 - **Memory-Augmented VTP**: AIS-Based Vessel Trajectory Prediction Using Memory-Augmented Neural Networks [*`AIS`* *`Vessel Trajectory Prediction`*] __`arXiv`__ [[Paper](https://arxiv.org/abs/2606.06311)]
 
 ### Marine Radar-Camera
 
 ### LiDAR-Camera
 
 ### RGB-IR
+* 2026 - **RAGTrack**: Language-aware RGBT Tracking with Retrieval-Augmented Generation [*`RGBT Tracking`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_RAGTrack_Language-aware_RGBT_Tracking_with_Retrieval-Augmented_Generation_CVPR_2026_paper.html)] [[GitHub](https://github.com/IdolLab/RAGTrack)]
 
