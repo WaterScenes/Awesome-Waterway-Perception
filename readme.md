@@ -147,6 +147,9 @@
 
 #### Open-Vocabulary Object Detection
 
+* 2025 - [**LAE-DINO**] Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community __`AAAI`__ [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32672)] [[Code](https://github.com/jaychempan/LAE-DINO)]
+* 2025 - [**OpenRSD**] OpenRSD: Towards Open-prompts for Object Detection in Remote Sensing Images __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Huang_OpenRSD_Towards_Open-prompts_for_Object_Detection_in_Remote_Sensing_Images_ICCV_2025_paper.html)]
+
 ### Segmentation
 
 * 2018 - Stereo obstacle detection for unmanned surface vehicles by IMU-assisted semantic segmentation [*`MODD2`*] [[Paper](https://www.sciencedirect.com/science/article/pii/S0921889017305808)]
