@@ -39,70 +39,148 @@
 
 * ### MaCVi 2026
 
+
   * The 4th Workshop on Maritime Computer Vision (MaCVi) 2026 [[Website](https://macvi.org/workshop/cvpr)] [[Results](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kiefer_4th_Workshop_on_Maritime_Computer_Vision_MaCVi_Challenge_Overview_CVPRW_2026_paper.html)] [[Paper List](https://openaccess.thecvf.com/CVPR2026_workshops/MaCVi)]
-  * Baseline: **LaRS**: A Diverse Panoptic Maritime Obstacle Detection Dataset and Benchmark [*`LaRS`*] [[Paper](https://doi.org/10.1109/ICCV51070.2023.01857)]
-  * 2026 - **Detector-Guided Refinement**: Improving Thing Segmentation for USV Panoptic Scene Understanding with Detector-Guided Class-Specific Refinement [*`LaRS`* *`Panoptic Segmentation`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Chun_Improving_Thing_Segmentation_for_USV_Panoptic_Scene_Understanding_with_Detector-Guided_CVPRW_2026_paper.html)]
-  * 2026 - **LEMMA**: Laplacian pyramids for Efficient Marine SeMAntic Segmentation [*`Marine Semantic Segmentation`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Gakhar_LEMMA_Laplacian_pyramids_for_Efficient_Marine_SeMAntic_Segmentation_CVPRW_2026_paper.html)]
-  * 2026 - **Thermal-Adapted RF-DETR**: Skyline-guided filtering and cross-scale fusion for maritime thermal object detection [*`Thermal Object Detection`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Jo_Thermal-Adapted_RF-DETR_with_Skyline-Guided_Filtering_and_Cross-Scale_Fusion_for_Maritime_CVPRW_2026_paper.html)] (🥉 in Thermal Object Detection)
-  * 2026 - **Optimization-Diverse Transformer Adaptation**: Optimization-Diverse Transformer Adaptation with Gated Heterogeneous Fusion for Robust Thermal Object Detection [*`Thermal Object Detection`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Tsai_Optimization-Diverse_Transformer_Adaptation_with_Gated_Heterogeneous_Fusion_for_Robust_Thermal_CVPRW_2026_paper.html)]
-  * 2026 - **Visual-Chart Fusion**: Real-Time Fusion of Visual and Chart Data for Enhanced Maritime Vision [*`Visual-Chart Fusion`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kreis_Real-Time_Fusion_of_Visual_and_Chart_Data_for_Enhanced_Maritime_CVPRW_2026_paper.html)]
-  * 2026 - **Skyline-Aware ROI Calibration**: Skyline-Aware ROI-Calibrated Buoy Association for Vision-to-Chart Data Association [*`Vision-to-Chart Association`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Jo_Skyline-Aware_ROI-Calibrated_Buoy_Association_for_Vision-to-Chart_Data_Association_CVPRW_2026_paper.html)] (🥇 in Vision-to-Chart Data Association)
-  * 2026 - **Radar-Vision Association**: Real-Time Radar--Vision Association via Monocular Distance Estimation [*`Radar-Vision Fusion`* *`Distance Estimation`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kiefer_Real-Time_Radar--Vision_Association_via_Monocular_Distance_Estimation_CVPRW_2026_paper.html)]
-  * 2026 - **Monocular Distance Estimation**: Monocular Metric Distance Estimation in Maritime Scenes via Reference-Based Scale Recovery [*`Distance Estimation`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Pizzicoli_Monocular_Metric_Distance_Estimation_in_Maritime_Scenes_via_Reference-Based_Scale_CVPRW_2026_paper.html)]
-  * 2026 - **Cross-Modality Sonar Detection**: Towards Robust Object Detection in Underwater Sonar Imagery [*`Underwater Sonar`* *`Cross-Modality Detection`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Auer_Towards_Robust_Object_Detection_in_Underwater_Sonar_Imagery_A_Cross-Modality_CVPRW_2026_paper.html)]
-  * 2026 - **Mine-JEPA**: In-domain self-supervised learning for mine-like object classification in side-scan sonar [*`Side-Scan Sonar`* *`Self-Supervised Learning`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kwon_Mine-JEPA_In-Domain_Self-Supervised_Learning_for_Mine-Like_Object_Classification_in_Side-Scan_CVPRW_2026_paper.html)]
-  * 2026 - **Underwater Visual Inference Deployment**: Deployment Characterization of Onboard Computing Platforms for Underwater Visual Inference [*`Underwater Vision`* *`Embedded Deployment`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Lee_Deployment_Characterization_of_Onboard_Computing_Platforms_for_Underwater_Visual_Inference_CVPRW_2026_paper.html)]
-  * 2026 - **Refractive Warping Benchmark**: A unified Benchmark for Multi-Frame Image Restoration under Severe Refractive Warping [*`Image Restoration`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Shugaev_A_unified_Benchmark_for_Multi-Frame_Image_Restoration_under_Severe_Refractive_CVPRW_2026_paper.html)]
-  * 2026 - **IALA-10**: A benchmark for fine-grained maritime buoy classification aligned with the maritime buoyage system [*`IALA-10`* *`Buoy Classification`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Augustin_IALA-10_A_Benchmark_for_Fine-Grained_Maritime_Buoy_Classification_Aligned_with_CVPRW_2026_paper.html)]
-  * 2026 - **PS3Simulator**: Physics-parametrised synthetic sonar for self-supervised sim-to-real transfer [*`Synthetic Sonar`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/S_PS3Simulator_Physics-Parametrised_Synthetic_Sonar_for_Self-Supervised_Sim-to-Real_Transfer_CVPRW_2026_paper.html)]
+  * Baseline: **LaRS**: A Diverse Panoptic Maritime Obstacle Detection Dataset and Benchmark [Dataset: *`LaRS`*] [[Paper](https://doi.org/10.1109/ICCV51070.2023.01857)]
+
+  #### Segmentation
+
+  * 2026 - Improving Thing Segmentation for USV Panoptic Scene Understanding with Detector-Guided Class-Specific Refinement [Dataset: *`LaRS`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Chun_Improving_Thing_Segmentation_for_USV_Panoptic_Scene_Understanding_with_Detector-Guided_CVPRW_2026_paper.html)]
+  * 2026 - **LEMMA**: Laplacian pyramids for Efficient Marine SeMAntic Segmentation __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Gakhar_LEMMA_Laplacian_pyramids_for_Efficient_Marine_SeMAntic_Segmentation_CVPRW_2026_paper.html)]
+
+  #### Detection
+
+  * 2026 - **Thermal-Adapted RF-DETR**: Skyline-guided filtering and cross-scale fusion for maritime thermal object detection __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Jo_Thermal-Adapted_RF-DETR_with_Skyline-Guided_Filtering_and_Cross-Scale_Fusion_for_Maritime_CVPRW_2026_paper.html)] (🥉 in Thermal Object Detection)
+  * 2026 - Optimization-Diverse Transformer Adaptation with Gated Heterogeneous Fusion for Robust Thermal Object Detection __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Tsai_Optimization-Diverse_Transformer_Adaptation_with_Gated_Heterogeneous_Fusion_for_Robust_Thermal_CVPRW_2026_paper.html)]
+  * 2026 - Towards Robust Object Detection in Underwater Sonar Imagery __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Auer_Towards_Robust_Object_Detection_in_Underwater_Sonar_Imagery_A_Cross-Modality_CVPRW_2026_paper.html)]
+
+  #### Multimodal Fusion / Association
+
+  * 2026 - Real-Time Fusion of Visual and Chart Data for Enhanced Maritime Vision [Task: *`Vision-to-Chart Data Association`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kreis_Real-Time_Fusion_of_Visual_and_Chart_Data_for_Enhanced_Maritime_CVPRW_2026_paper.html)]
+  * 2026 - Skyline-Aware ROI-Calibrated Buoy Association for Vision-to-Chart Data Association [Task: *`Vision-to-Chart Data Association`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Jo_Skyline-Aware_ROI-Calibrated_Buoy_Association_for_Vision-to-Chart_Data_Association_CVPRW_2026_paper.html)] (🥇 in Vision-to-Chart Data Association)
+  * 2026 - Real-Time Radar--Vision Association via Monocular Distance Estimation [Task: *`Radar-Vision Association`* *`Distance Estimation`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kiefer_Real-Time_Radar--Vision_Association_via_Monocular_Distance_Estimation_CVPRW_2026_paper.html)]
+
+  #### Distance Estimation
+
+  * 2026 - Monocular Metric Distance Estimation in Maritime Scenes via Reference-Based Scale Recovery __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Pizzicoli_Monocular_Metric_Distance_Estimation_in_Maritime_Scenes_via_Reference-Based_Scale_CVPRW_2026_paper.html)]
+
+  #### Classification / Recognition
+
+  * 2026 - **Mine-JEPA**: In-domain self-supervised learning for mine-like object classification in side-scan sonar __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kwon_Mine-JEPA_In-Domain_Self-Supervised_Learning_for_Mine-Like_Object_Classification_in_Side-Scan_CVPRW_2026_paper.html)]
+  * 2026 - **IALA-10**: A benchmark for fine-grained maritime buoy classification aligned with the maritime buoyage system [Dataset: *`IALA-10`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Augustin_IALA-10_A_Benchmark_for_Fine-Grained_Maritime_Buoy_Classification_Aligned_with_CVPRW_2026_paper.html)]
+
+  #### Image Enhancement / Restoration
+
+  * 2026 - A unified Benchmark for Multi-Frame Image Restoration under Severe Refractive Warping __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Shugaev_A_unified_Benchmark_for_Multi-Frame_Image_Restoration_under_Severe_Refractive_CVPRW_2026_paper.html)]
+
+  #### Embedded Deployment
+
+  * 2026 - Deployment Characterization of Onboard Computing Platforms for Underwater Visual Inference __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Lee_Deployment_Characterization_of_Onboard_Computing_Platforms_for_Underwater_Visual_Inference_CVPRW_2026_paper.html)]
+
+  #### Synthetic Data / Simulation
+
+  * 2026 - **PS3Simulator**: Physics-parametrised synthetic sonar for self-supervised sim-to-real transfer __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/S_PS3Simulator_Physics-Parametrised_Synthetic_Sonar_for_Self-Supervised_Sim-to-Real_Transfer_CVPRW_2026_paper.html)]
 * ### MaCVi 2025
 
+
   * The 3rd Workshop on Maritime Computer Vision (MaCVi) 2025 [[Website](https://macvi.org/workshop/macvi25)] [[Results](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Kiefer_3rd_Workshop_on_Maritime_Computer_Vision_MaCVi_2025_Challenge_Results_WACVW_2025_paper.html)] [[Paper List](https://openaccess.thecvf.com/WACV2025_workshops/MaCVi)]
-  * Baseline: **LaRS**: A Diverse Panoptic Maritime Obstacle Detection Dataset and Benchmark [*`LaRS`*] [[Paper](https://doi.org/10.1109/ICCV51070.2023.01857)]
-  * 2025 - **FalconEye**: Efficient Centroid-Based Object Detection for Maritime High Altitude UAV Images on Embedded Devices [*`UAV`* *`Small Object Detection`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Sawahn_FalconEye_Efficient_Centroid-Based_Object_Detection_for_Maritime_High_Altitude_UAV_WACVW_2025_paper.html)]
-  * 2025 - **Marine Event Vision**: Harnessing Event Cameras For Robust Object Detection In Marine Scenarios [*`Event Camera`* *`Object Detection`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Dadson_Marine_Event_Vision_Harnessing_Event_Cameras_For_Robust_Object_Detection_WACVW_2025_paper.html)]
-  * 2025 - **Underwater Image Enhancement and Object Detection**: Are Poor Object Detection Results On Enhanced Images Due to Missing Human Labels? [*`Underwater Image Enhancement`* *`Object Detection`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Lucas_Underwater_Image_Enhancement_and_Object_Detection_Are_Poor_Object_Detection_WACVW_2025_paper.html)]
-  * 2025 - **Imbalanced SAR Ship Classification**: A Framework for Imbalanced SAR Ship Classification [*`SAR`* *`Ship Classification`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Awais_A_Framework_for_Imbalanced_SAR_Ship_Classification_Curriculum_Learning_Weighted_WACVW_2025_paper.html)]
-  * 2025 - **Ship Crew Monitoring**: Camera-based Intruder Detection and Monitoring of Ship Crew Work Hours [*`Object Detection`* *`Ship Safety`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Murad_Camera-based_Intruder_Detection_and_Monitoring_of_Ship_Crew_Work_Hours_WACVW_2025_paper.html)]
-  * 2025 - **Vessel Registration Recognition**: Vessel registration number detection and recognition system [*`Vessel Recognition`* *`OCR`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Fabijanic_Vessel_registration_number_detection_and_recognition_system_WACVW_2025_paper.html)]
-  * 2025 - **Coreset Selection and Model Compression**: Navigating Coreset Selection and Model Compression for Efficient Maritime Image Classification [*`Image Classification`* *`Model Compression`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Shinde_Navigating_Coreset_Selection_and_Model_Compression_for_Efficient_Maritime_Image_WACVW_2025_paper.html)]
-  * 2025 - **Plankton SSL Classification**: In-domain self-supervised learning for plankton image classification on a budget [*`Image Classification`* *`Self-Supervised Learning`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Ciranni_In-domain_self-supervised_learning_for_plankton_image_classification_on_a_budget_WACVW_2025_paper.html)]
-  * 2025 - **Fish Age Prediction**: Automatic Fish Age Prediction using Deep Machine Learning: Combining Otolith Image, NIR Spectra, and Metadata Features [*`Fish Age Prediction`* *`Multimodal Prediction`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Zheng_Automatic_Fish_Age_Prediction_using_Deep_Machine_Learning_Combining_Otolith_WACVW_2025_paper.html)]
-  * 2025 - **AutoFish**: Dataset and Benchmark for Fine-grained Analysis of Fish [*`AutoFish`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Bengtson_AutoFish_Dataset_and_Benchmark_for_Fine-grained_Analysis_of_Fish_WACVW_2025_paper.html)]
-  * 2025 - **MTReD**: 3D Reconstruction Dataset for Fly-over Videos of Maritime Domain [*`MTReD`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Yong_MTReD_3D_Reconstruction_Dataset_for_Fly-over_Videos_of_Maritime_Domain_WACVW_2025_paper.html)]
+  * Baseline: **LaRS**: A Diverse Panoptic Maritime Obstacle Detection Dataset and Benchmark [Dataset: *`LaRS`*] [[Paper](https://doi.org/10.1109/ICCV51070.2023.01857)]
+
+  #### Detection
+
+  * 2025 - **FalconEye**: Efficient Centroid-Based Object Detection for Maritime High Altitude UAV Images on Embedded Devices __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Sawahn_FalconEye_Efficient_Centroid-Based_Object_Detection_for_Maritime_High_Altitude_UAV_WACVW_2025_paper.html)]
+  * 2025 - **Marine Event Vision**: Harnessing Event Cameras For Robust Object Detection In Marine Scenarios __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Dadson_Marine_Event_Vision_Harnessing_Event_Cameras_For_Robust_Object_Detection_WACVW_2025_paper.html)]
+  * 2025 - Underwater Image Enhancement and Object Detection: Are Poor Object Detection Results On Enhanced Images Due to Missing Human Labels? __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Lucas_Underwater_Image_Enhancement_and_Object_Detection_Are_Poor_Object_Detection_WACVW_2025_paper.html)]
+  * 2025 - Camera-based Intruder Detection and Monitoring of Ship Crew Work Hours __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Murad_Camera-based_Intruder_Detection_and_Monitoring_of_Ship_Crew_Work_Hours_WACVW_2025_paper.html)]
+
+  #### Classification / Recognition
+
+  * 2025 - A Framework for Imbalanced SAR Ship Classification __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Awais_A_Framework_for_Imbalanced_SAR_Ship_Classification_Curriculum_Learning_Weighted_WACVW_2025_paper.html)]
+  * 2025 - Vessel registration number detection and recognition system __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Fabijanic_Vessel_registration_number_detection_and_recognition_system_WACVW_2025_paper.html)]
+  * 2025 - Navigating Coreset Selection and Model Compression for Efficient Maritime Image Classification __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Shinde_Navigating_Coreset_Selection_and_Model_Compression_for_Efficient_Maritime_Image_WACVW_2025_paper.html)]
+  * 2025 - In-domain self-supervised learning for plankton image classification on a budget __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Ciranni_In-domain_self-supervised_learning_for_plankton_image_classification_on_a_budget_WACVW_2025_paper.html)]
+
+  #### Multimodal Prediction
+
+  * 2025 - Automatic Fish Age Prediction using Deep Machine Learning: Combining Otolith Image, NIR Spectra, and Metadata Features [Task: *`Fish Age Prediction`* *`Multimodal Prediction`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Zheng_Automatic_Fish_Age_Prediction_using_Deep_Machine_Learning_Combining_Otolith_WACVW_2025_paper.html)]
+
+  #### Dataset / Benchmark
+
+  * 2025 - **AutoFish**: Dataset and Benchmark for Fine-grained Analysis of Fish [Dataset: *`AutoFish`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Bengtson_AutoFish_Dataset_and_Benchmark_for_Fine-grained_Analysis_of_Fish_WACVW_2025_paper.html)]
+  * 2025 - **MTReD**: 3D Reconstruction Dataset for Fly-over Videos of Maritime Domain [Dataset: *`MTReD`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Yong_MTReD_3D_Reconstruction_Dataset_for_Fly-over_Videos_of_Maritime_Domain_WACVW_2025_paper.html)]
 * ### MaCVi 2024
 
+
   * The 2nd Workshop on Maritime Computer Vision (MaCVi) 2024 [[Website](https://macvi.org/workshop/macvi24)] [[Results](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Kiefer_2nd_Workshop_on_Maritime_Computer_Vision_MaCVi_2024_Challenge_Results_WACVW_2024_paper.html)] [[Paper List](https://openaccess.thecvf.com/WACV2024_workshops/MaCVi)]
-  * Baseline: **SeaDronesSee**: A Maritime Benchmark for Detecting Humans in Open Water [*`SeaDroneSee`*] [[Paper](https://arxiv.org/abs/2105.01922)]
-  * 2023 - **Sea You Later**: Metadata-Guided Long-Term Re-Identification for UAV-Based Multi-Object Tracking [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.03561)] (🥇 in UAV-based Multi-Object Tracking, and 🥇 in USV-based Multi-Object Tracking)
-  * 2023 - **ReIDTracker Sea**: the technical report of BoaTrack and SeaDronesSee-MOT challenge at MaCVi [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.07616)] (🥈 in UAV-based Multi-Object Tracking, 🥉 in USV-based Multi-Object Tracking)
-  * 2023 - **DLR-BoaTrack**: Improving YOLOv8 with Scattering Transform and Attention for Maritime Awareness [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`ISPA`__ [[Paper](https://ieeexplore.ieee.org/document/10279352)] (+BoT-SORT, 🥉 in UAV-based Multi-Object Tracking)
-  * 2023 - **SeaDSC**: A video-based unsupervised method for dynamic scene change detection in unmanned surface vehicles [*`RoboWhaler`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Trinh_SeaDSC_A_Video-Based_Unsupervised_Method_for_Dynamic_Scene_Change_Detection_WACVW_2024_paper.html)]
-  * 2023 - **SafeSea**: Synthetic data generation for adverse and low probability maritime conditions [*`Synthetic Data`* *`Adverse Maritime Conditions`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Tran_SafeSea_Synthetic_Data_Generation_for_Adverse__Low_Probability_Maritime_WACVW_2024_paper.html)]
-  * 2024 - **Image-AIS Fusion**: Image and AIS Data Fusion Technique for Maritime Computer Vision Applications [*`Image-AIS Fusion`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Gulsoylu_Image_and_AIS_Data_Fusion_Technique_for_Maritime_Computer_Vision_WACVW_2024_paper.html)]
-  * 2024 - **Oriented Bounding Boxes**: An Automated Method for the Creation of Oriented Bounding Boxes in Remote Sensing Ship Detection Datasets [*`Ship Detection`* *`Oriented Bounding Box`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Savathrakis_An_Automated_Method_for_the_Creation_of_Oriented_Bounding_Boxes_WACVW_2024_paper.html)]
-  * 2024 - **Active Learning for Aquatic Species**: Active Learning Strategy Using Contrastive Learning and K-Means for Aquatic Invasive Species Recognition [*`Image Classification`* *`Aquatic Invasive Species`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Chowdhury_Active_Learning_Strategy_Using_Contrastive_Learning_and_K-Means_for_Aquatic_WACVW_2024_paper.html)]
+  * Baseline: **SeaDronesSee**: A Maritime Benchmark for Detecting Humans in Open Water [Dataset: *`SeaDroneSee`*] [[Paper](https://arxiv.org/abs/2105.01922)]
+
+  #### Tracking / ReID
+
+  * 2023 - **Sea You Later**: Metadata-Guided Long-Term Re-Identification for UAV-Based Multi-Object Tracking [Dataset: *`SeaDroneSee-MOT`* *`BoaTrack`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.03561)] (🥇 in UAV-based Multi-Object Tracking with Re-identification)
+  * 2023 - **ReIDTracker Sea**: the technical report of BoaTrack and SeaDronesSee-MOT challenge at MaCVi [Dataset: *`SeaDroneSee-MOT`* *`BoaTrack`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.07616)] (🥉 in UAV-based Multi-Object Tracking with Re-identification, 🥈 in USV-based Multi-Object Tracking)
+  * 2023 - **DLR-BoaTrack**: Improving YOLOv8 with Scattering Transform and Attention for Maritime Awareness [Dataset: *`SeaDroneSee-MOT`* *`BoaTrack`*] __`ISPA`__ [[Paper](https://ieeexplore.ieee.org/document/10279352)] (+BoT-SORT, 🥉 in USV-based Multi-Object Tracking)
+
+  #### Multimodal Fusion / Association
+
+  * 2024 - Image and AIS Data Fusion Technique for Maritime Computer Vision Applications [Task: *`Image-AIS Fusion`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Gulsoylu_Image_and_AIS_Data_Fusion_Technique_for_Maritime_Computer_Vision_WACVW_2024_paper.html)]
+
+  #### Dynamic Scene Change Detection
+
+  * 2024 - **SeaDSC**: A video-based unsupervised method for dynamic scene change detection in unmanned surface vehicles [Dataset: *`RoboWhaler`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Trinh_SeaDSC_A_Video-Based_Unsupervised_Method_for_Dynamic_Scene_Change_Detection_WACVW_2024_paper.html)]
+
+  #### Synthetic Data / Simulation
+
+  * 2023 - **SafeSea**: Synthetic data generation for adverse and low probability maritime conditions __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Tran_SafeSea_Synthetic_Data_Generation_for_Adverse__Low_Probability_Maritime_WACVW_2024_paper.html)]
+
+  #### Detection
+
+  * 2024 - An Automated Method for the Creation of Oriented Bounding Boxes in Remote Sensing Ship Detection Datasets __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Savathrakis_An_Automated_Method_for_the_Creation_of_Oriented_Bounding_Boxes_WACVW_2024_paper.html)]
+
+  #### Classification / Recognition
+
+  * 2024 - Active Learning Strategy Using Contrastive Learning and K-Means for Aquatic Invasive Species Recognition __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Chowdhury_Active_Learning_Strategy_Using_Contrastive_Learning_and_K-Means_for_Aquatic_WACVW_2024_paper.html)]
 * ### MaCVi 2023
 
+
   * The 1st Workshop on Maritime Computer Vision (MaCVi) 2023 [[Website](https://macvi.org/workshop/macvi23)] [[Results](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Kiefer_1st_Workshop_on_Maritime_Computer_Vision_MaCVi_2023_Challenge_Results_WACVW_2023_paper.html)] [[Paper List](https://openaccess.thecvf.com/WACV2023_workshops/MaCVi)]
-  * Baseline: **SeaDronesSee**: A Maritime Benchmark for Detecting Humans in Open Water [*`SeaDroneSee`*] [[Paper](https://arxiv.org/abs/2105.01922)]
-  * 2023 - **Search and Rescue Simulation Framework**: A Novel Framework To Evaluate and Train Object Detection Models for Real-Time Victims Search and Rescue at Sea With Autonomous Unmanned Aerial Systems Using High-Fidelity Dynamic Marine Simulation Environment [*`SeaDroneSee`* *`Object Detection`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Poudel_A_Novel_Framework_To_Evaluate_and_Train_Object_Detection_Models_WACVW_2023_paper.html)]
-  * 2023 - **Small Oriented Object Detection**: Improving the Detection of Small Oriented Objects in Aerial Images [*`Small Object Detection`* *`Oriented Object Detection`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Doloriel_Improving_the_Detection_of_Small_Oriented_Objects_in_Aerial_Images_WACVW_2023_paper.html)]
-  * 2023 - **YOLOv7-Sea**: Object Detection of Maritime UAV Images Based on Improved YOLOv7 [*`SeaDroneSee`* *`UAV Object Detection`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Zhao_YOLOv7-Sea_Object_Detection_of_Maritime_UAV_Images_Based_on_Improved_WACVW_2023_paper.html)] (🥉 in UAV-based Maritime Object Detection)
-  * 2023 - **Sonar Image Composition**: Sonar Image Composition for Semantic Segmentation Using Machine Learning [*`Sonar Segmentation`*] __`WACV Workshop`__ [[Paper](https://doi.org/10.1109/WACVW58289.2023.00031)]
-  * 2023 - **Semantic Segmentation Deployability Survey**: A Survey on the Deployability of Semantic Segmentation Networks for Fluvial Navigation [*`Semantic Segmentation`* *`Fluvial Navigation`*] __`WACV Workshop`__ [[Paper](https://doi.org/10.1109/WACVW58289.2023.00032)]
-  * 2023 - **Underwater Image Improvement**: An Efficient Approach for Underwater Image Improvement [*`Underwater Image Enhancement`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Espinosa_An_Efficient_Approach_for_Underwater_Image_Improvement_Deblurring_Dehazing_and_WACVW_2023_paper.html)]
-  * 2023 - **DepthCue**: Restoration of underwater images using monocular depth as a clue [*`Underwater Image Restoration`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Desai_DepthCue_Restoration_of_Underwater_Images_Using_Monocular_Depth_as_a_WACVW_2023_paper.html)]
-  * 2023 - **Coral Reef Semantic Segmentation**: Combining Photogrammetric Computer Vision and Semantic Segmentation for Fine-Grained Understanding of Coral Reef Growth Under Climate Change [*`Semantic Segmentation`* *`Coral Reef`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Zhong_Combining_Photogrammetric_Computer_Vision_and_Semantic_Segmentation_for_Fine-Grained_Understanding_WACVW_2023_paper.html)]
-  * 2023 - **Sea Ice Classification**: Sea Ice Classification With Dual-Polarized SAR Imagery [*`SAR Classification`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Chen_Sea_Ice_Classification_With_Dual-Polarized_SAR_Imagery_A_Hierarchical_Pipeline_WACVW_2023_paper.html)]
-  * 2023 - **SeaDroneSim**: Simulation of aerial images for detection of objects above water [*`SeaDroneSee`* *`Synthetic Data`* *`Object Detection`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Lin_SeaDroneSim_Simulation_of_Aerial_Images_for_Detection_of_Objects_Above_WACVW_2023_paper.html)]
+  * Baseline: **SeaDronesSee**: A Maritime Benchmark for Detecting Humans in Open Water [Dataset: *`SeaDroneSee`*] [[Paper](https://arxiv.org/abs/2105.01922)]
+
+  #### Detection
+
+  * 2023 - A Novel Framework To Evaluate and Train Object Detection Models for Real-Time Victims Search and Rescue at Sea With Autonomous Unmanned Aerial Systems Using High-Fidelity Dynamic Marine Simulation Environment [Dataset: *`SeaDroneSee`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Poudel_A_Novel_Framework_To_Evaluate_and_Train_Object_Detection_Models_WACVW_2023_paper.html)]
+  * 2023 - Improving the Detection of Small Oriented Objects in Aerial Images __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Doloriel_Improving_the_Detection_of_Small_Oriented_Objects_in_Aerial_Images_WACVW_2023_paper.html)]
+  * 2023 - **YOLOv7-Sea**: Object Detection of Maritime UAV Images Based on Improved YOLOv7 [Dataset: *`SeaDroneSee`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Zhao_YOLOv7-Sea_Object_Detection_of_Maritime_UAV_Images_Based_on_Improved_WACVW_2023_paper.html)] (🥉 in UAV-based Maritime Object Detection)
+
+  #### Segmentation
+
+  * 2023 - Sonar Image Composition for Semantic Segmentation Using Machine Learning __`WACV Workshop`__ [[Paper](https://doi.org/10.1109/WACVW58289.2023.00031)]
+  * 2023 - A Survey on the Deployability of Semantic Segmentation Networks for Fluvial Navigation __`WACV Workshop`__ [[Paper](https://doi.org/10.1109/WACVW58289.2023.00032)]
+  * 2023 - Combining Photogrammetric Computer Vision and Semantic Segmentation for Fine-Grained Understanding of Coral Reef Growth Under Climate Change __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Zhong_Combining_Photogrammetric_Computer_Vision_and_Semantic_Segmentation_for_Fine-Grained_Understanding_WACVW_2023_paper.html)]
+
+  #### Image Enhancement / Restoration
+
+  * 2023 - An Efficient Approach for Underwater Image Improvement __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Espinosa_An_Efficient_Approach_for_Underwater_Image_Improvement_Deblurring_Dehazing_and_WACVW_2023_paper.html)]
+  * 2023 - **DepthCue**: Restoration of underwater images using monocular depth as a clue __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Desai_DepthCue_Restoration_of_Underwater_Images_Using_Monocular_Depth_as_a_WACVW_2023_paper.html)]
+
+  #### Classification / Recognition
+
+  * 2023 - Sea Ice Classification With Dual-Polarized SAR Imagery __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Chen_Sea_Ice_Classification_With_Dual-Polarized_SAR_Imagery_A_Hierarchical_Pipeline_WACVW_2023_paper.html)]
+
+  #### Synthetic Data / Simulation
+
+  * 2023 - **SeaDroneSim**: Simulation of aerial images for detection of objects above water [Dataset: *`SeaDroneSee`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Lin_SeaDroneSim_Simulation_of_Aerial_Images_for_Detection_of_Objects_Above_WACVW_2023_paper.html)]
 
 ## Surveys
 
-* 2017 - **Video Processing From Electro-Optical Sensors for Object Detection and Tracking in a Maritime Environment**: A survey on maritime video object detection and tracking [*`Detection`* *`Tracking`*] __`TITS`__ [[Paper](https://doi.org/10.1109/TITS.2016.2634580)]
-* 2021 - **Marine Vision-Based Situational Awareness Using Discriminative Deep Learning**: A survey on maritime visual situational awareness and multimodal perception [*`Maritime Situational Awareness`* *`Multimodal Perception`*] __`JMSE`__ [[Paper](https://doi.org/10.3390/jmse9040397)]
-* 2021 - **Survey on Deep Learning-Based Marine Object Detection**: A survey on deep learning-based marine object detection [*`Marine Object Detection`*] __`Journal of Advanced Transportation`__ [[Paper](https://doi.org/10.1155/2021/5808206)]
-* 2024 - **Deep Learning-Based Object Detection in Maritime Unmanned Aerial Vehicle Imagery**: Review and experimental comparisons for maritime UAV object detection [*`UAV Object Detection`* *`Survey`*] __`EAAI`__ [[Paper](https://doi.org/10.1016/j.engappai.2023.107513)]
+### Detection / Tracking Survey
+
+* 2017 - Video Processing From Electro-Optical Sensors for Object Detection and Tracking in a Maritime Environment __`TITS`__ [[Paper](https://doi.org/10.1109/TITS.2016.2634580)]
+* 2021 - Survey on Deep Learning-Based Marine Object Detection __`Journal of Advanced Transportation`__ [[Paper](https://doi.org/10.1155/2021/5808206)]
+* 2024 - Deep Learning-Based Object Detection in Maritime Unmanned Aerial Vehicle Imagery: Review and Experimental Comparisons __`EAAI`__ [[Paper](https://doi.org/10.1016/j.engappai.2023.107513)]
+
+### Maritime Situational Awareness / Multimodal Perception Survey
+
+* 2021 - Marine Vision-Based Situational Awareness Using Discriminative Deep Learning __`JMSE`__ [[Paper](https://doi.org/10.3390/jmse9040397)]
 
 ## Datasets
 
