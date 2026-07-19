@@ -11,14 +11,20 @@
 - [Uni-Modal Perception](#uni-modal-perception)
   - [Detection](#detection)
     - [Small Object Detection](#small-object-detection)
-    - [Open-Vocabulary Object Detection](#open-vocabulary-object-detection)
   - [Segmentation](#segmentation)
   - [Tracking](#tracking)
+  - [Mapping](#mapping)
+  - [Trajectory Prediction](#trajectory-prediction)
+  - [Change Detection](#change-detection)
+  - [Depth Estimation](#depth-estimation)
   - [Diffusion](#diffusion)
   - [Image Enhancement](#image-enhancement)
 - [Multi-Modal Perception](#multi-modal-perception)
   - [Radar-Camera](#radar-camera)
   - [AIS-Camera](#ais-camera)
+  - [Marine Radar-Camera](#marine-radar-camera)
+  - [LiDAR-Camera](#lidar-camera)
+  - [RGB-IR](#rgb-ir)
 
 ## Teams
 
@@ -43,17 +49,18 @@
 
   * The 2nd Workshop on Maritime Computer Vision (MaCVi) 2024 [[Website](https://macvi.org/workshop/macvi24)] [[Results](https://arxiv.org/abs/2311.14762)] [[Paper List](https://openaccess.thecvf.com/WACV2024_workshops/MaCVi)]
   * Baseline: **SeaDronesSee**: A Maritime Benchmark for Detecting Humans in Open Water [*`SeaDroneSee`*] [[Paper](https://arxiv.org/abs/2105.01922)]
-  * 2023 - **Sea You Later**: Metadata-Guided Long-Term Re-Identification for UAV-Based Multi-Object Tracking [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.03561)] (🥇 in UAV-based Multi-Object Tracking, and 🥇 in USV-based Multi-Object Tracking)
   * 2023 - **ReIDTracker Sea**: the technical report of BoaTrack and SeaDronesSee-MOT challenge at MaCVi [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.07616)] (🥈 in UAV-based Multi-Object Tracking, 🥉 in USV-based Multi-Object Tracking)
   * 2023 - [**DLR-BoaTrack**]: Improving YOLOv8 with Scattering Transform and Attention for Maritime Awareness [*`SeaDroneSee-MOT`* *`BoaTrack`*] __`ISPA`__ [[Paper](https://ieeexplore.ieee.org/document/10279352)] (+BoT-SORT, 🥉 in UAV-based Multi-Object Tracking)
-  * 2023 - **SeaDSC**: A video-based unsupervised method for dynamic scene change detection in unmanned surface vehicles [*`RoboWhaler`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.11580)]
+  * 2024 - **SeaDSC**: A Video-Based Unsupervised Method for Dynamic Scene Change Detection in Unmanned Surface Vehicles [*`RoboWhaler`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Trinh_SeaDSC_A_Video-Based_Unsupervised_Method_for_Dynamic_Scene_Change_Detection_WACVW_2024_paper.html)]
+   * 2024 - [**MG-MOT**] Sea You Later: Metadata-Guided Long-Term Re-Identification for UAV-Based Multi-Object Tracking [*`SeaDronesSee-MOT`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Yang_Sea_You_Later_Metadata-Guided_Long-Term_Re-Identification_for_UAV-Based_Multi-Object_Tracking_WACVW_2024_paper.html)]
+
 * ### MaCVi 2023
 
   * The 1nd Workshop on Maritime Computer Vision (MaCVi) 2023 [[Website](https://macvi.org/workshop/macvi23)] [[Results](https://ieeexplore.ieee.org/document/10031200/)] [[Paper List](https://openaccess.thecvf.com/WACV2023_workshops/MaCVi)]
   * Baseline: **SeaDronesSee**: A Maritime Benchmark for Detecting Humans in Open Water [*`SeaDroneSee`*] [[Paper](https://arxiv.org/abs/2105.01922)]
   * 2023 - A Novel Framework to Evaluate and Train Object Detection Models for Real-Time Victims Search and Rescue at Sea with Autonomous Unmanned Aerial Systems Using High-Fidelity Dynamic Marine Simulation Environment [*`SeaDroneSee`*] [[Paper](https://ieeexplore.ieee.org/document/10031171)]
-  * 2023 - Improving the Detection of Small Oriented Objects in Aerial Images [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Zhao_YOLOv7-Sea_Object_Detection_of_Maritime_UAV_Images_Based_on_Improved_WACVW_2023_paper.pdf)]
-  * 2023 - **YOLOv7-Sea**: Object Detection of Maritime UAV Images Based on Improved YOLOv7 [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Doloriel_Improving_the_Detection_of_Small_Oriented_Objects_in_Aerial_Images_WACVW_2023_paper.pdf)]
+  * 2023 - Improving the Detection of Small Oriented Objects in Aerial Images [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Doloriel_Improving_the_Detection_of_Small_Oriented_Objects_in_Aerial_Images_WACVW_2023_paper.pdf)]
+  * 2023 - **YOLOv7-Sea**: Object Detection of Maritime UAV Images Based on Improved YOLOv7 [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/papers/Zhao_YOLOv7-Sea_Object_Detection_of_Maritime_UAV_Images_Based_on_Improved_WACVW_2023_paper.pdf)]
 
 ## Surveys
 
@@ -117,11 +124,15 @@
 * 2019 - Object Detection in a Maritime Environment: Performance Evaluation of Background Subtraction Methods [**Dataset**: *`SMD`*] __`TITS`__  [[Paper](https://ieeexplore.ieee.org/abstract/document/8401855)]
 * 2020 - Are Object Detection Assessment Criteria Ready for Maritime Computer Vision? [**Dataset**: *`SMD`*] __`TITS`__  [[Paper](https://ieeexplore.ieee.org/document/8911242)]
 * 2023 - An Automated Method for the Creation of Oriented Bounding Boxes in Remote Sensing Ship Detection Datasets [**Dataset**: *`HRSC2016`* *`ShipRSImageNet`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Savathrakis_An_Automated_Method_for_the_Creation_of_Oriented_Bounding_Boxes_WACVW_2024_paper.html)]
+* 2023 - A Novel Framework To Evaluate and Train Object Detection Models for Real-Time Victims Search and Rescue at Sea With Autonomous Unmanned Aerial Systems Using High-Fidelity Dynamic Marine Simulation Environment [**Dataset**: *`SeaDronesSee`* *`MS COCO`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Poudel_A_Novel_Framework_To_Evaluate_and_Train_Object_Detection_Models_WACVW_2023_paper.html)]
 * 2024 - **MDD-ShipNet**: Math-Data Integrated Defogging for Fog-Occlusion Ship Detection [**Dataset**: *`CH`* *`MVDD13`*] __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10527397/)]
 * 2024 - **AodeMar**: Attention-Aware Occlusion Detection of Vessels for Maritime Autonomous Surface Ships [**Dataset**: *`MVDD13`*] __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10537110)]
 * 2024 - [**PWP**] Panoptic Water Surface Visual Perception for USVs Using Monocular Camera Sensor [**Dataset**:  *`FloW`* *`WSODD`* *`SMD`* *`MODD2`* *`USVInland`* *`MaSTr1325`*] __`IEEE Sensors`__ [[Paper](https://ieeexplore.ieee.org/document/10562207)]
 * 2025 - **PointSR**: Self-Regularized Point Supervision for Drone-View Object Detection [**Dataset**: *`DroneVehicle`* *`VisDrone`* *`UAVDT`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_PointSR_Self-Regularized_Point_Supervision_for_Drone-View_Object_Detection_CVPR_2025_paper.html)]
 * 2025 - [**RemDet**] Rethinking Efficient Model Design for UAV Object Detection [**Dataset**: *`PU1K`* *`KITTI`*] __`AAAI`__ [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32667)]
+* 2025 - Vessel Registration Number Detection and Recognition System [**Dataset**: *`SPSCD`* *`Šibennik Bay CCTV Static Camera Dataset`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Fabijanic_Vessel_registration_number_detection_and_recognition_system_WACVW_2025_paper.html)] [[GitHub](https://github.com/mf1999/VesselRegistrationNumberDetection)]
+* 2025 - Marine Event Vision: Harnessing Event Cameras For Robust Object Detection In Marine Scenarios __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Dadson_Marine_Event_Vision_Harnessing_Event_Cameras_For_Robust_Object_Detection_WACVW_2025_paper.html)]
+* 2026 - Optimization-Diverse Transformer Adaptation with Gated Heterogeneous Fusion for Robust Thermal Object Detection [**Dataset**: *`Maritime Collision Avoidance Dataset`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Tsai_Optimization-Diverse_Transformer_Adaptation_with_Gated_Heterogeneous_Fusion_for_Robust_Thermal_CVPRW_2026_paper.html)]
 * ```
   ```
   
@@ -131,6 +142,7 @@
 * 2023 - [**CZ detector**] Cascaded Zoom-In Detector for High Resolution Aerial Images [**Dataset**: *`VisDrone`* *`DOTA`*] __`CVPRW`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2023W/EarthVision/html/Meethal_Cascaded_Zoom-In_Detector_for_High_Resolution_Aerial_Images_CVPRW_2023_paper.html)]
 * 2023 - [**CFINet**] Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning [**Dataset**: *`SODA-D`* *`SODA-A`*] __`ICCV`__ [[Paper](https://arxiv.org/abs/2308.09534)] [[GitHub](https://github.com/shaunyuan22/CFINet)]
 * 2023 - [**DCFL**] Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection [**Dataset**: *`DOTA-v1.0`* *`DOTA-v1.5`* *`DOTA-v2.0`* *`DIOR-R`* *`VisDrone`* *`COCO`*] __`CVPR`__ [[Paper](https://arxiv.org/abs/2304.08876)] [[GitHub](https://github.com/Chasel-Tsui/mmrotate-dcfl)]
+* 2023 - **YOLOv7-Sea**: Object Detection of Maritime UAV Images Based on Improved YOLOv7 [**Dataset**: *`SeaDronesSee Object Detection v2`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2023W/MaCVi/html/Zhao_YOLOv7-Sea_Object_Detection_of_Maritime_UAV_Images_Based_on_Improved_WACVW_2023_paper.html)]
 * 2024 - [**DQ-DETR**] DETR with Dynamic Query for Tiny Object Detection [**Dataset**: *`AI-TOD-V2`* *`VisDrone`* *`COCO`*] __`ECCV`__ [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09775.pdf)] [[GitHub](https://github.com/hoiliu-0801/DQ-DETR)]
 * 2024 - [**SCDNet**] Dense Tiny Object Detection: A Scene Context Guided Approach and A Unified Benchmark [**Dataset**: *`DTOD`*] __`TGRS`__ [[Paper](https://ieeexplore.ieee.org/document/10412118)]
 * 2024 - [**DFR-Det**] Learning 1-Bit Tiny Object Detector with Discriminative Feature Refinement [**Dataset**: *`AI-TOD`* *`DOTA-v2.0`* *`TinyPerson`*] __`ICML`__ [[Paper](https://proceedings.mlr.press/v235/xu24z.html)]
@@ -141,31 +153,43 @@
 * 2025 - **SET**: Spectral Enhancement for Tiny Object Detection [**Dataset**: *`AI-TOD`* *`VisDrone2019`* *`DOTA-v2.0`* *`COCO 2017`* *`TinyPerson`* *`SeaPerson`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Sun_SET_Spectral_Enhancement_for_Tiny_Object_Detection_CVPR_2025_paper.html)]
 * 2025 - [**Point Teacher**] Tiny Object Detection with Single Point Supervision [**Dataset**: *`AI-TOD-v2`* *`SODA-A`* *`TinyPerson`* *`DOTA-v2`*] __`ISPRS JPRS`__ [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S092427162500187X)] [[GitHub](https://github.com/ZhuHaoranEIS/Point-Teacher)]
 * 2025 - [**UGS**] Uncertainty-Aware Gradient Stabilization for Small Object Detection [**Dataset**: *`VisDrone`* *`SODA-A`* *`COCO 2017`* *`PASCAL VOC`*] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Sun_Uncertainty-Aware_Gradient_Stabilization_for_Small_Object_Detection_ICCV_2025_paper.html)]
+* 2025 - **FalconEye**: Efficient Centroid-Based Object Detection for Maritime High Altitude UAV Images on Embedded Devices [**Dataset**: *`SeaDronesSee Object Detection v2`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2025W/MaCVi/html/Sawahn_FalconEye_Efficient_Centroid-Based_Object_Detection_for_Maritime_High_Altitude_UAV_WACVW_2025_paper.html)] [[GitHub](https://github.com/rohansaw/Falcon-Eye)]
 * 2026 - **BDNet**: Bio-Inspired Dual-Backbone Small Object Detection Network [**Dataset**: *`VisDrone2019`* *`NWPU VHR-10`* *`AI-TODv2`*] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Guan_BDNetBio-Inspired_Dual-Backbone_Small_Object_Detection_Network_CVPR_2026_paper.html)]
-
-#### Open-Vocabulary Object Detection
-
-* 2025 - [**LAE-DINO**] Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community [**Dataset**: *`LAE-1M`* *`DIOR`* *`DOTA-v2.0`* *`LAE-80C`*] __`AAAI`__ [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32672)] [[GitHub](https://github.com/jaychempan/LAE-DINO)]
-* 2025 - **OpenRSD**: Towards Open-Prompts for Object Detection in Remote Sensing Images [**Dataset**: *`DIOR-R`* *`DOTA-v1.0`* *`DOTA-v2.0`* *`FAIR1M-2.0`* *`WHU-Mix`* *`SpaceNet`* *`HRSC2016`*] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Huang_OpenRSD_Towards_Open-prompts_for_Object_Detection_in_Remote_Sensing_Images_ICCV_2025_paper.html)] [[GitHub](https://github.com/floatingstarZ/OpenRSD)]
+* 2026 - **Thermal-Adapted RF-DETR** with Skyline-Guided Filtering and Cross-Scale Fusion for Maritime Thermal Object Detection [**Dataset**: *`Maritime Collision Avoidance Dataset`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Jo_Thermal-Adapted_RF-DETR_with_Skyline-Guided_Filtering_and_Cross-Scale_Fusion_for_Maritime_CVPRW_2026_paper.html)]
+* 2026 - [**Enhanced YOLOv8**] Improving small object detection in open water maritime monitoring under low-shot learning [**Dataset**: *`SeaDronesSee`*] __`Ocean Engineering`__ [[Paper](https://doi.org/10.1016/j.oceaneng.2025.123307)]
 
 ### Segmentation
 
 * 2018 - Stereo obstacle detection for unmanned surface vehicles by IMU-assisted semantic segmentation [**Dataset**: *`MODD2`*] [[Paper](https://www.sciencedirect.com/science/article/pii/S0921889017305808)]
 * 2021 - **ShorelineNet**: An Efficient Deep Learning Approach for Shoreline Semantic Segmentation for Unmanned Surface Vehicles [**Dataset**: *`MODD2`*] **IROS** [[Paper](https://ieeexplore.ieee.org/document/9636614)]
+* 2026 - **LEMMA**: Laplacian pyramids for Efficient Marine SeMAntic Segmentation [**Dataset**: *`MaSTr1325`* *`Oil Spill Drone Dataset`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Gakhar_LEMMA_Laplacian_pyramids_for_Efficient_Marine_SeMAntic_Segmentation_CVPRW_2026_paper.html)]
+* 2026 - Improving Thing Segmentation for USV Panoptic Scene Understanding with Detector-Guided Class-Specific Refinement [**Dataset**: *`LaRS`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Chun_Improving_Thing_Segmentation_for_USV_Panoptic_Scene_Understanding_with_Detector-Guided_CVPRW_2026_paper.html)]
 
 ### Tracking
 
 * 2021 - [**RoDAN**] A Robust Deep Affinity Network for Multiple Ship Tracking [**Dataset**: *`SMD`*] __`TIM`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9423987)]
 * 2023 - Stable Yaw Estimation of Boats from the Viewpoint of UAVs and USVs [**Dataset**: *`PASCAL3D+`* *`SeaDronesSee-3D`* *`BOArienT`*] __`ECMR`__ [[Paper](https://arxiv.org/abs/2306.14056)]
 * 2023 - Memory Maps for Video Object Detection and Tracking on UAVs [**Dataset**: *`SeaDronesSee-MOT`* *`OpenWater`*] __`IROS`__ [[Paper](https://arxiv.org/abs/2303.03508)]
-* 2023 - **Sea You Later**: Metadata-Guided Long-Term Re-Identification for UAV-Based Multi-Object Tracking [**Dataset**: *`SeaDronesSee-MOT`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.03561)]
 * 2023 - **ReIDTracker Sea**: the technical report of BoaTrack and SeaDronesSee-MOT challenge at MaCVi [**Dataset**: *`SeaDronesSee-MOT`* *`LaRS`*] __`WACV Workshop`__ [[Paper](https://arxiv.org/abs/2311.07616)]
 * 2023 - **DLR-BoaTrack**: Improving YOLOv8 with Scattering Transform and Attention for Maritime Awareness [**Dataset**: *`ShipSG`*] __`ISPA`__ [[Paper](https://ieeexplore.ieee.org/document/10279352)]
 * 2024 - Active Vision-Based Finite-Time Trajectory-Tracking Control of an Unmanned Surface Vehicle Without Direct Position Measurements __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10443713)]
+* 2024 - [**MG-MOT**] Sea You Later: Metadata-Guided Long-Term Re-Identification for UAV-Based Multi-Object Tracking [**Dataset**: *`SeaDronesSee-MOT`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Yang_Sea_You_Later_Metadata-Guided_Long-Term_Re-Identification_for_UAV-Based_Multi-Object_Tracking_WACVW_2024_paper.html)]
 
 ### Mapping
 
 * 2024 - [**FVMNet**] Real-Time Volumetric Perception for Unmanned Surface Vehicles Through Fusion of Radar and Camera [**Task**: *`Segmentation`* **Dataset**: *`USVInland`*] __`TIM`__ [[Paper](https://ieeexplore.ieee.org/document/10478941)]
+
+### Trajectory Prediction
+
+* 2026 - [**DI-MTP**] Unified Multimodal Vessel Trajectory Prediction With Explainable Navigation Intention __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/11278469/)] [[GitHub](https://github.com/EurusC/DI-MTP)]
+
+### Change Detection
+
+* 2024 - **SeaDSC**: A Video-Based Unsupervised Method for Dynamic Scene Change Detection in Unmanned Surface Vehicles [**Dataset**: *`RoboWhaler`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Trinh_SeaDSC_A_Video-Based_Unsupervised_Method_for_Dynamic_Scene_Change_Detection_WACVW_2024_paper.html)]
+
+### Depth Estimation
+
+* 2026 - Monocular Metric Distance Estimation in Maritime Scenes via Reference-Based Scale Recovery __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Pizzicoli_Monocular_Metric_Distance_Estimation_in_Maritime_Scenes_via_Reference-Based_Scale_CVPRW_2026_paper.html)]
 
 ### Diffusion
 
@@ -189,10 +213,17 @@
 
 * 2023 - [**DeepSORVF**] Asynchronous Trajectory Matching-Based Multimodal Maritime Data Fusion for Vessel Traffic Surveillance in Inland Waterways [**Task**: *`Detection`* *`Tracking`*] __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10159572)]
 * 2023 - Improving maritime traffic surveillance in inland waterways using the robust fusion of AIS and visual data [**Task**: *`Detection`* *`Tracking`*] __`Ocean Engineering`__ [[Paper](https://www.sciencedirect.com/science/article/pii/S0029801823005826)]
+* 2024 - Image and AIS Data Fusion Technique for Maritime Computer Vision Applications [**Task**: *`Association`*] __`WACV Workshop`__ [[Paper](https://openaccess.thecvf.com/content/WACV2024W/MaCVi/html/Gulsoylu_Image_and_AIS_Data_Fusion_Technique_for_Maritime_Computer_Vision_WACVW_2024_paper.html)] [[GitHub](https://github.com/egulsoylu/image-ais-fusion)]
+
+### Chart-Camera
+
+* 2026 - Skyline-Aware ROI-Calibrated Buoy Association for Vision-to-Chart Data Association [**Task**: *`Association`* **Dataset**: *`Vision-to-Chart Data Association Challenge Dataset`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Jo_Skyline-Aware_ROI-Calibrated_Buoy_Association_for_Vision-to-Chart_Data_Association_CVPRW_2026_paper.html)]
+* 2026 - Real-Time Fusion of Visual and Chart Data for Enhanced Maritime Vision [**Task**: *`Association`* *`Detection`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kreis_Real-Time_Fusion_of_Visual_and_Chart_Data_for_Enhanced_Maritime_CVPRW_2026_paper.html)] [[GitHub](https://github.com/MartenKre/Transformer)]
 
 ### Marine Radar-Camera
 
 * 2025 - **WS-DETR**: Robust Water Surface Object Detection through Vision-Radar Fusion with Detection Transformer [**Task**: *`Detection`* **Dataset**: *`WaterScenes`*] __`SMC`__ [[Paper](https://ieeexplore.ieee.org/document/11342725)]
+* 2026 - Real-Time Radar--Vision Association via Monocular Distance Estimation [**Task**: *`Association`* **Dataset**: *`MIT Sea Grant Marine Perception Dataset`*] __`CVPR Workshop`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/MaCVi/html/Kiefer_Real-Time_Radar--Vision_Association_via_Monocular_Distance_Estimation_CVPRW_2026_paper.html)]
 * 2026 - **PhysFusion**: A Transformer-based Dual-Stream Radar and Vision Fusion Framework for Open Water Surface Object Detection [**Task**: *`Detection`* **Dataset**: *`WaterScenes`* *`FloW`*] __`arXiv`__ [[Paper](https://arxiv.org/abs/2603.01947)]
 * 2026 - **CalibFusion**: Transformer-Based Differentiable Calibration for Radar-Camera Fusion Detection in Water-Surface Environments [**Task**: *`Detection`* *`Calibration`* **Dataset**: *`WaterScenes`* *`FloW`*] __`arXiv`__ [[Paper](https://arxiv.org/abs/2603.06670)]
 
